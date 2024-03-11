@@ -240,6 +240,12 @@
     max-width: 220px;
 }
 
+.man-img-svg {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
 .heading {
     font-size: var(--fs-xxl);
     font-weight: 700;

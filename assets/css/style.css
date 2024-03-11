@@ -49,7 +49,8 @@
     --fc-dimgrey: #31302B;
 
 }
-.cursor-pointer{
+
+.cursor-pointer {
     cursor: pointer;
 }
 
@@ -400,13 +401,25 @@
 .first-position {
     position: absolute;
     bottom: -2%;
-    left: -10%;
+    left: 18%;
 }
 
 .third-position {
     position: absolute;
     bottom: -7%;
     left: 0;
+}
+
+#position2-order {
+    order: 2;
+}
+
+#position1-order {
+    order: 1;
+}
+
+#position3-order {
+    order: 3;
 }
 
 .pb-45 {
@@ -420,6 +433,7 @@
 .position-svg {
     position: absolute;
     bottom: -53px;
+    left: -48px;
 }
 
 .m-heading {
@@ -1050,6 +1064,14 @@
     margin-top: 16px;
 }
 
+.max-w-239 {
+    max-width: 239px !important;
+}
+
+.max-w-236 {
+    max-width: 236px !important;
+}
+
 .FAQ_bg_img {
     background-image: url(/assets/png.img/FAQ_acc_bg_img.svg);
     background-size: cover;
@@ -1164,6 +1186,7 @@
     mask-composite: exclude;
     transition: all 300ms linear;
 }
+
 .Tabs.active::after {
     content: "";
     position: absolute;
@@ -1791,6 +1814,18 @@ ul {
         padding-bottom: 90px;
     }
 
+    #position2-order {
+        order: 1;
+    }
+
+    #position1-order {
+        order: 2;
+    }
+
+    #position3-order {
+        order: 3;
+    }
+
 
 
 
@@ -1884,6 +1919,11 @@ ul {
     }
 }
 
+@media (min-width:768px) and (max-width:992px) {
+    .mt-50 {
+        margin-top: 50px !important;
+    }
+}
 
 @media (max-width:890px) and (min-width:670px) {
     .timeline_line {

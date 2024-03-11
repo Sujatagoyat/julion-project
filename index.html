@@ -17,7 +17,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="overflow-x-hidden">
     <header class="bg-hero pt-30 pb-5 min_vh-100 d-flex flex-column align-item s-center ">
         <div class="my-container">
             <nav class="d-flex align-items-center justify-content-between  ">
@@ -252,7 +252,7 @@
             <div class="tab-img-position d-lg-block d-none">
                 <img src="./assets/images/ta.svg" alt="tab-img.svg">
             </div>
-            <img class="w-100" src="./assets/images/sitting-man.svg" alt="sitting-man.svg">
+            <img class="w-100" src="./assets/images/blue-suit-man.svg" alt="blue-suit-man.svg">
             <h2 class="heading max-w-524 mx-auto pt-91 pb-1 color-lightblack font-helvetica mb-0 pb-3 text-center">Start
                 Writing
                 Your Own
@@ -262,7 +262,7 @@
                 a thesis and bring it to life.</p>
             <div class="row justify-content-center">
                 <div class="col-md-6 col-12 mb-2 mb-lg-0 tabs">
-                    <div onclick="navtabs('tab1')" class="start-writing-box mb-3 navTab">
+                    <div onclick="navtabs('tab1')" class="start-writing-box mb-3 navTab active">
                         <div class="d-flex justify-content-between">
                             <p class="text font-helvetica color-lightblack">World Class Research</p>
                             <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
@@ -563,32 +563,9 @@
         </div>
     </section>
     <!--===================================== Prize-winning projects-5========================================  -->
-    <section class="py-lg-130 position-relative py-50 " id="Scholarships">
+    <section class="py-lg-130 position-relative py-50 prize-bg-img " id="Scholarships">
         <div class="my-container">
-            <div class="svg-position-1 prev d-lg-block d-none ">
-                <div class="svg-box d-flex align-items-center justify-content-center arrow-slider">
-                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M7 1L1 7.5L7 14" stroke="url(#paint0_linear_41693_158)" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
-                        <defs>
-                            <linearGradient id="paint0_linear_41693_158" x1="1" y1="1" x2="9.89465" y2="3.68732"
-                                gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#F4EAD8" />
-                                <stop offset="1" stop-color="#E0B764" />
-                            </linearGradient>
-                        </defs>
-                    </svg>
-                </div>
-            </div>
-            <div class="svg-position-2 next d-lg-block d-none ">
-                <div class="svg-box d-flex align-items-center justify-content-center arrow-slider">
-                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 1L7 7.5L0.999999 14" stroke="url(#paint0_linear_41693_158)" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
 
-                </div>
-            </div>
             <div class="donate-box">
                 <h1 class="para-2  font-helvetica max-w-944 color-lightblack  style-italic">Donate to The Julian
                     Project. Only with
@@ -618,118 +595,147 @@
 
             </div>
             <!-- =================================== slider ======================================== -->
-            <div class="responsive">
-                <div class="prize-box mt-20">
-                    <div class="d-flex gap-32 align-items-center justify-content-center column-reverse flex_wrap  ">
-                        <div class="blank">
-                            <h1 class="heading color-lightblack font-helvetica py-3">Prize-Winning Projects</h1>
-                            <p class="sub-heading font-helvetica  color-lightblack mb-0 pb-3 ">The Story of <span
-                                    class="gradient-text">Civilization</span></p>
-                            <p class="para font-helvetica color-grey max-w-551 mb-0 pb-3 ">Choose your topic. Find
-                                expert
-                                guidance.
-                                Create
-                                a
-                                thesis and bring it to life. World-Class. These books cover various
-                                periods and topics in history, offering different perspectives and insights into
-                                different
-                                civilizations
-                                and events.</p>
-                            <p class="para font-helvetica color-lightblack pb-48">Will Durant & Ariel Durant</p>
-                            <div class="d-flex  gap-10 cursor-pointer   ">
-                                <button class="commn-btn font-helvetica gradient-text border-none   ">Read More</button>
-                                <img src="./assets/images/arrow.svg" alt="arrow.svg">
-                            </div>
-                        </div>
-                        <div class="blank">
-                            <img class="w-100" src="./assets/images/couple-smiling.svg" alt="couple-smiling.svg">
-                        </div>
+            <div class="position-relative">
+                <div class="svg-position-1 prev d-lg-block d-none ">
+                    <div class="svg-box d-flex align-items-center justify-content-center arrow-slider">
+                        <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 1L1 7.5L7 14" stroke="url(#paint0_linear_41693_158)" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <defs>
+                                <linearGradient id="paint0_linear_41693_158" x1="1" y1="1" x2="9.89465" y2="3.68732"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F4EAD8" />
+                                    <stop offset="1" stop-color="#E0B764" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
                     </div>
+                </div>
+                <div class="svg-position-2 next d-lg-block d-none ">
+                    <div class="svg-box d-flex align-items-center justify-content-center arrow-slider">
+                        <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L7 7.5L0.999999 14" stroke="url(#paint0_linear_41693_158)" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
 
-                </div>
-                <div class="prize-box mt-20">
-                    <div class="d-flex gap-32 align-items-center justify-content-center column-reverse flex_wrap">
-                        <div class="blank">
-                            <h1 class="heading color-lightblack font-helvetica py-3">Prize-Winning Projects</h1>
-                            <p class="sub-heading font-helvetica  color-lightblack mb-0 pb-3 ">The Story of <span
-                                    class="gradient-text">Civilization</span></p>
-                            <p class="para font-helvetica color-grey max-w-551 mb-0 pb-3 ">Choose your topic. Find
-                                expert
-                                guidance.
-                                Create
-                                a
-                                thesis and bring it to life. World-Class. These books cover various
-                                periods and topics in history, offering different perspectives and insights into
-                                different
-                                civilizations
-                                and events.</p>
-                            <p class="para font-helvetica color-lightblack pb-48">Will Durant & Ariel Durant</p>
-                            <div class="d-flex  gap-10  cursor-pointer  ">
-                                <button class="commn-btn font-helvetica gradient-text border-none   ">Read More</button>
-                                <img src="./assets/images/arrow.svg" alt="arrow.svg">
-                            </div>
-                        </div>
-                        <div class="blank">
-                            <img src="./assets/images/couple-smiling.svg" alt="couple-smiling.svg">
-                        </div>
                     </div>
                 </div>
-                <div class="prize-box mt-20">
-                    <div class="d-flex gap-32 align-items-center justify-content-center column-reverse flex_wrap">
-                        <div class="blank">
-                            <h1 class="heading color-lightblack font-helvetica py-3">Prize-Winning Projects</h1>
-                            <p class="sub-heading font-helvetica  color-lightblack mb-0 pb-3 ">The Story of <span
-                                    class="gradient-text">Civilization</span></p>
-                            <p class="para font-helvetica color-grey max-w-551 mb-0 pb-3 ">Choose your topic. Find
-                                expert
-                                guidance.
-                                Create
-                                a
-                                thesis and bring it to life. World-Class. These books cover various
-                                periods and topics in history, offering different perspectives and insights into
-                                different
-                                civilizations
-                                and events.</p>
-                            <p class="para font-helvetica color-lightblack pb-48">Will Durant & Ariel Durant</p>
-                            <div class="d-flex  gap-10 cursor-pointer   ">
-                                <button class="commn-btn font-helvetica gradient-text border-none   ">Read More</button>
-                                <img src="./assets/images/arrow.svg" alt="arrow.svg">
+                <div class="responsive">
+                    <div class="prize-box mt-20">
+                        <div class="d-flex gap-32 align-items-center justify-content-center column-reverse flex_wrap  ">
+                            <div class="blank">
+                                <h1 class="heading color-lightblack font-helvetica py-3">Prize-Winning Projects</h1>
+                                <p class="sub-heading font-helvetica  color-lightblack mb-0 pb-3 ">The Story of <span
+                                        class="gradient-text">Civilization</span></p>
+                                <p class="para font-helvetica color-grey max-w-551 mb-0 pb-3 ">Choose your topic. Find
+                                    expert
+                                    guidance.
+                                    Create
+                                    a
+                                    thesis and bring it to life. World-Class. These books cover various
+                                    periods and topics in history, offering different perspectives and insights into
+                                    different
+                                    civilizations
+                                    and events.</p>
+                                <p class="para font-helvetica color-lightblack pb-48">Will Durant & Ariel Durant</p>
+                                <div class="d-flex  gap-10 cursor-pointer   ">
+                                    <button class="commn-btn font-helvetica gradient-text border-none   ">Read
+                                        More</button>
+                                    <img src="./assets/images/arrow.svg" alt="arrow.svg">
+                                </div>
+                            </div>
+                            <div class="blank">
+                                <img class="w-100" src="./assets/images/couple-smiling.svg" alt="couple-smiling.svg">
                             </div>
                         </div>
-                        <div class="blank">
-                            <img src="./assets/images/couple-smiling.svg" alt="couple-smiling.svg">
+
+                    </div>
+                    <div class="prize-box mt-20">
+                        <div class="d-flex gap-32 align-items-center justify-content-center column-reverse flex_wrap">
+                            <div class="blank">
+                                <h1 class="heading color-lightblack font-helvetica py-3">Prize-Winning Projects</h1>
+                                <p class="sub-heading font-helvetica  color-lightblack mb-0 pb-3 ">The Story of <span
+                                        class="gradient-text">Civilization</span></p>
+                                <p class="para font-helvetica color-grey max-w-551 mb-0 pb-3 ">Choose your topic. Find
+                                    expert
+                                    guidance.
+                                    Create
+                                    a
+                                    thesis and bring it to life. World-Class. These books cover various
+                                    periods and topics in history, offering different perspectives and insights into
+                                    different
+                                    civilizations
+                                    and events.</p>
+                                <p class="para font-helvetica color-lightblack pb-48">Will Durant & Ariel Durant</p>
+                                <div class="d-flex  gap-10  cursor-pointer  ">
+                                    <button class="commn-btn font-helvetica gradient-text border-none   ">Read
+                                        More</button>
+                                    <img src="./assets/images/arrow.svg" alt="arrow.svg">
+                                </div>
+                            </div>
+                            <div class="blank">
+                                <img src="./assets/images/couple-smiling.svg" alt="couple-smiling.svg">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="prize-box mt-20">
-                    <div class="d-flex gap-32 align-items-center justify-content-center column-reverse flex_wrap">
-                        <div class="blank">
-                            <h1 class="heading color-lightblack font-helvetica py-3">Prize-Winning Projects</h1>
-                            <p class="sub-heading font-helvetica  color-lightblack mb-0 pb-3 ">The Story of <span
-                                    class="gradient-text">Civilization</span></p>
-                            <p class="para font-helvetica color-grey max-w-551 mb-0 pb-3 ">Choose your topic. Find
-                                expert
-                                guidance.
-                                Create
-                                a
-                                thesis and bring it to life. World-Class. These books cover various
-                                periods and topics in history, offering different perspectives and insights into
-                                different
-                                civilizations
-                                and events.</p>
-                            <p class="para font-helvetica color-lightblack pb-48">Will Durant & Ariel Durant</p>
-                            <div class="d-flex  gap-10 cursor-pointer   ">
-                                <button class="commn-btn font-helvetica gradient-text border-none   ">Read More</button>
-                                <img src="./assets/images/arrow.svg" alt="arrow.svg">
+                    <div class="prize-box mt-20">
+                        <div class="d-flex gap-32 align-items-center justify-content-center column-reverse flex_wrap">
+                            <div class="blank">
+                                <h1 class="heading color-lightblack font-helvetica py-3">Prize-Winning Projects</h1>
+                                <p class="sub-heading font-helvetica  color-lightblack mb-0 pb-3 ">The Story of <span
+                                        class="gradient-text">Civilization</span></p>
+                                <p class="para font-helvetica color-grey max-w-551 mb-0 pb-3 ">Choose your topic. Find
+                                    expert
+                                    guidance.
+                                    Create
+                                    a
+                                    thesis and bring it to life. World-Class. These books cover various
+                                    periods and topics in history, offering different perspectives and insights into
+                                    different
+                                    civilizations
+                                    and events.</p>
+                                <p class="para font-helvetica color-lightblack pb-48">Will Durant & Ariel Durant</p>
+                                <div class="d-flex  gap-10 cursor-pointer   ">
+                                    <button class="commn-btn font-helvetica gradient-text border-none   ">Read
+                                        More</button>
+                                    <img src="./assets/images/arrow.svg" alt="arrow.svg">
+                                </div>
+                            </div>
+                            <div class="blank">
+                                <img src="./assets/images/couple-smiling.svg" alt="couple-smiling.svg">
                             </div>
                         </div>
-                        <div class="blank">
-                            <img src="./assets/images/couple-smiling.svg" alt="couple-smiling.svg">
+                    </div>
+                    <div class="prize-box mt-20">
+                        <div class="d-flex gap-32 align-items-center justify-content-center column-reverse flex_wrap">
+                            <div class="blank">
+                                <h1 class="heading color-lightblack font-helvetica py-3">Prize-Winning Projects</h1>
+                                <p class="sub-heading font-helvetica  color-lightblack mb-0 pb-3 ">The Story of <span
+                                        class="gradient-text">Civilization</span></p>
+                                <p class="para font-helvetica color-grey max-w-551 mb-0 pb-3 ">Choose your topic. Find
+                                    expert
+                                    guidance.
+                                    Create
+                                    a
+                                    thesis and bring it to life. World-Class. These books cover various
+                                    periods and topics in history, offering different perspectives and insights into
+                                    different
+                                    civilizations
+                                    and events.</p>
+                                <p class="para font-helvetica color-lightblack pb-48">Will Durant & Ariel Durant</p>
+                                <div class="d-flex  gap-10 cursor-pointer   ">
+                                    <button class="commn-btn font-helvetica gradient-text border-none   ">Read
+                                        More</button>
+                                    <img src="./assets/images/arrow.svg" alt="arrow.svg">
+                                </div>
+                            </div>
+                            <div class="blank">
+                                <img src="./assets/images/couple-smiling.svg" alt="couple-smiling.svg">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
     <!-- ================================= submission-timeline ================================================== -->
@@ -1203,9 +1209,10 @@
             </p>
             <div class="top-border "></div>
             <div class="d-flex gap-40  flex-wrap flex-lg-nowrap justify-content-center">
-                <div class=" d-flex justify-content-end flex-column tabs">
+                <div class=" scrll tabs">
+                    <!-- <div class="d_flex "> -->
                     <div onclick="historytabs('tabs1')"
-                        class="d-flex align-items-center max-w-338 justify-content-between gap-150 border-tab right-border cursor-pointer right-line position-relative left-line Tabs">
+                        class="d-flex align-items-center max-w-338 justify-content-between gap-150 border-tab right-border cursor-pointer right-line position-relative  Tabs active">
                         <p class="t-heading font-helvetica color-offwhite mb-0 text-nowrap bh">Political History</p>
                         <svg class="history_tab_svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -1223,8 +1230,8 @@
 
                     </div>
                     <div onclick="historytabs('tabs2')"
-                        class="d-flex align-items-center max-w-338 justify-content-between border-tab-2 Tabs position-relative">
-                        <p class="t-heading font-helvetica color-offwhite mb-0">Military History</p>
+                        class="d-flex align-items-center max-w-338 justify-content-between gap-150 border-tab-2 Tabs position-relative">
+                        <p class="t-heading font-helvetica color-offwhite mb-0 text-nowrap">Military History</p>
                         <svg class="history_tab_svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <defs>
@@ -1259,7 +1266,7 @@
                     </div>
 
                     <div onclick="historytabs('tabs4')"
-                        class="d-flex align-items-center max-w-338 justify-content-between border-tab-2 Tabs position-relative">
+                        class="d-flex align-items-center max-w-338 justify-content-between border-tab-2 gap-150 Tabs position-relative">
                         <p class="t-heading font-helvetica color-offwhite mb-0 text-nowrap">Economic History</p>
                         <svg class="history_tab_svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -1276,7 +1283,7 @@
                         </svg>
                     </div>
                     <div onclick="historytabs('tabs5')"
-                        class="d-flex align-items-center max-w-338 justify-content-between border-tab-2 Tabs position-relative">
+                        class="d-flex align-items-center max-w-338 justify-content-between border-tab-2 gap-150 Tabs position-relative">
                         <p class="t-heading font-helvetica color-offwhite mb-0 text-nowrap">Environmental History</p>
                         <svg class="history_tab_svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -1293,8 +1300,8 @@
                         </svg>
                     </div>
                     <div onclick="historytabs('tabs6')"
-                        class="d-flex align-items-center max-w-338 justify-content-between border-tab-2 Tabs position-relative">
-                        <p class="t-heading font-helvetica color-offwhite mb-0">Cultural History</p>
+                        class="d-flex align-items-center max-w-338 justify-content-between border-tab-2 gap-150 Tabs position-relative">
+                        <p class="t-heading font-helvetica color-offwhite mb-0 text-nowrap">Cultural History</p>
                         <svg class="history_tab_svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <defs>
@@ -1310,8 +1317,8 @@
                         </svg>
                     </div>
                     <div onclick="historytabs('tabs7')"
-                        class="d-flex align-items-center max-w-338 justify-content-between border-tab-2 Tabs position-relative">
-                        <p class="t-heading font-helvetica color-offwhite mb-0">Social History</p>
+                        class="d-flex align-items-center max-w-338 justify-content-between border-tab-2 gap-150 Tabs position-relative">
+                        <p class="t-heading font-helvetica color-offwhite mb-0 text-nowrap">Social History</p>
                         <svg class="history_tab_svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <defs>
@@ -1327,8 +1334,8 @@
                         </svg>
                     </div>
                     <div onclick="historytabs('tabs8')"
-                        class="d-flex align-items-center max-w-338 justify-content-between border-tab-2 Tabs position-relative">
-                        <p class="t-heading font-helvetica color-offwhite mb-0">Intellectual History</p>
+                        class="d-flex align-items-center max-w-338 justify-content-between border-tab-2 gap-150 Tabs position-relative">
+                        <p class="t-heading font-helvetica color-offwhite mb-0 text-nowrap">Intellectual History</p>
                         <svg class="history_tab_svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <defs>
@@ -1516,8 +1523,9 @@
         </div>
         </div>
         </div>
+        </div>
     </section>
-   
+
     <!-- =============================================FAQ-acc======================================================== -->
     <section class="FAQ_bg_img py-lg-150 py-50" id="Issues">
         <div class="my-container">
@@ -1535,7 +1543,7 @@
                 <div class="col-md-6 d-flex justify-content-center">
                     <div class="accordion1">
                         <div class="accordionHead d-flex justify-content-between ">
-                            <p class="font-helvetico font-400 font-s leading-24 color-lightblack70 mb-0 text-nowrap">Who
+                            <p class="font-helvetico font-400 font-s leading-24 color-lightblack70 mb-0 ">Who
                                 can submit?
                             </p>
                             <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -1564,7 +1572,7 @@
                 <div class="col-md-6 d-flex justify-content-center">
                     <div class="accordion1">
                         <div class="accordionHead d-flex justify-content-between ">
-                            <p class="font-helvetico font-400 font-s leading-24 color-lightblack70 mb-0 text-nowrap">How
+                            <p class="font-helvetico font-400 font-s leading-24 color-lightblack70 mb-0 ">How
                                 frequently do you publish?
                             </p>
                             <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -1592,7 +1600,7 @@
                 <div class="col-md-6 d-flex justify-content-center">
                     <div class="accordion1">
                         <div class="accordionHead d-flex justify-content-between ">
-                            <p class="font-helvetico font-400 font-s leading-24 color-lightblack70 mb-0 text-nowrap">
+                            <p class="font-helvetico font-400 font-s leading-24 color-lightblack70 mb-0 ">
                                 What do you look for?
                             </p>
                             <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -1620,7 +1628,7 @@
                 <div class="col-md-6 d-flex justify-content-center">
                     <div class="accordion1">
                         <div class="accordionHead d-flex justify-content-between ">
-                            <p class="font-helvetico font-400 font-s leading-24 color-lightblack70 mb-0 text-nowrap">How
+                            <p class="font-helvetico font-400 font-s leading-24 color-lightblack70 mb-0 ">How
                                 many papers do you publish?
                             </p>
                             <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -1648,8 +1656,8 @@
                 <div class="col-md-6 d-flex justify-content-center">
                     <div class="accordion1">
                         <div class="accordionHead d-flex justify-content-between ">
-                            <p class="font-helvetico font-400 font-s leading-24 color-lightblack70 mb-0 text-nowrap">
-                                What can I spend the scholarship ?
+                            <p class="font-helvetico font-400 font-s leading-24 color-lightblack70 mb-0 ">
+                                What can I spend the scholarship or grant on?
                             </p>
                             <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -1676,7 +1684,7 @@
                 <div class="col-md-6 d-flex justify-content-center">
                     <div class="accordion1">
                         <div class="accordionHead d-flex justify-content-between ">
-                            <p class="font-helvetico font-400 font-s leading-24 color-lightblack70 mb-0 text-nowrap">Who
+                            <p class="font-helvetico font-400 font-s leading-24 color-lightblack70 mb-0 ">Who
                                 is eligible for Pro Bono Publico?
                             </p>
                             <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -1703,10 +1711,11 @@
                 </div>
 
             </div>
-
-        </div>
-
-        <!-- </div> -->
+            <div
+                class="d-flex  gap-10   max-w-160 align-items-center underline position-relative mt-32 mx-auto p-12 align-items-center justify-content-lg-center ">
+                <button class="commn-btn font-helvetica gradient-text border-none mt-32">View All</button>
+                <img class="mt-32" src="./assets/images/arrow.svg" alt="arrow.svg">
+            </div>
         </div>
     </section>
     <!-- ===================================== dive into the past-7 ================================ -->
@@ -1870,10 +1879,10 @@
                         </div>
                     </div>
                 </div>
-               
+
 
             </div>
-           
+
             <div
                 class="d-flex  gap-10   max-w-160 align-items-center underline position-relative mt-32 mx-auto p-12 align-items-center justify-content-lg-center ">
                 <button class="commn-btn font-helvetica gradient-text border-none mt-32">Submit</button>

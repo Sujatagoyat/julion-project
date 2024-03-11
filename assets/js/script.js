@@ -35,8 +35,8 @@ $('.responsive').slick({
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                dots: false,
-                autoplay: true,
+                dots: true,
+                // autoplay: true,
 
             }
         },
@@ -45,8 +45,8 @@ $('.responsive').slick({
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                dots: false,
-                autoplay: true,
+                dots: true,
+                // autoplay: true,
 
             }
         },
@@ -55,8 +55,8 @@ $('.responsive').slick({
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                dots: false,
-                autoplay: true,
+                dots: true,
+                // autoplay: true,
             }
         }
         // You can unslick at a given breakpoint now by adding:
